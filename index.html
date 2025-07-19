@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <title>Frontend Mentor | Pricing Component with Toggle</title>
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <header>
+        <h1 class="text-preset-3">Our Pricing</h1>
+      </header>
+      <main>
+        <section>
+          <input type="checkbox" id="billing-toggle" hidden />
+          <div class="toggle-wrapper">
+            <span class="text-preset-5 option">Annually</span>
+            <label for="billing-toggle" class="toggle-switch"></label>
+            <span class="text-preset-5 option">Monthly</span>
+          </div>
+          <div class="pricing-container">
+            <div class="pricing monthly">
+              <div class="plan basic">
+                <h2 class="text-preset-4">Basic</h2>
+                <span class="text-preset-2 price">
+                  &dollar;<span class="text-preset-1">19.99</span>
+                </span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">500 GB Storage</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">2 Users Allowed</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">Send up to 3 GB</span>
+                <div class="separator"></div>
+                <a
+                  href="#"
+                  class="btn secondary text-preset-6"
+                  aria-label="Learn more about Premium Plan"
+                  >Learn More</a
+                >
+              </div>
+              <div class="plan pro">
+                <h2 class="text-preset-4">Professional</h2>
+                <span class="text-preset-2 price">
+                  &dollar;<span class="text-preset-1">24.99</span>
+                </span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">1 TB Storage</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">5 Users Allowed</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">Send up to 10 GB</span>
+                <div class="separator"></div>
+                <a
+                  href="#"
+                  class="btn primary text-preset-6"
+                  aria-label="Learn more about Professional Plan"
+                  >Learn More</a
+                >
+              </div>
+              <div class="plan master">
+                <h2 class="text-preset-4">Master</h2>
+                <span class="text-preset-2 price">
+                  &dollar;<span class="text-preset-1">39.99</span>
+                </span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">2 TB Storage</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">10 Users Allowed</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">Send up to 20 GB</span>
+                <div class="separator"></div>
+                <a
+                  href="#"
+                  class="btn secondary text-preset-6"
+                  aria-label="Learn more about Master Plan"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+
+            <div class="pricing annually">
+              <div class="plan basic">
+                <h2 class="text-preset-4">Basic</h2>
+                <span class="text-preset-2 price">
+                  &dollar;<span class="text-preset-1">199.99</span>
+                </span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">500 GB Storage</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">2 Users Allowed</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">Send up to 3 GB</span>
+                <div class="separator"></div>
+                <a
+                  href="#"
+                  class="btn secondary text-preset-6"
+                  aria-label="Learn more about Premium Plan"
+                  >Learn More</a
+                >
+              </div>
+              <div class="plan pro">
+                <h2 class="text-preset-4">Professional</h2>
+                <span class="text-preset-2 price">
+                  &dollar;<span class="text-preset-1">249.99</span>
+                </span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">1 TB Storage</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">5 Users Allowed</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">Send up to 10 GB</span>
+                <div class="separator"></div>
+                <a
+                  href="#"
+                  class="btn primary text-preset-6"
+                  aria-label="Learn more about Professional Plan"
+                  >Learn More</a
+                >
+              </div>
+              <div class="plan master">
+                <h2 class="text-preset-4">Master</h2>
+                <span class="text-preset-2 price">
+                  &dollar;<span class="text-preset-1">399.99</span>
+                </span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">2 TB Storage</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">10 Users Allowed</span>
+                <div class="separator"></div>
+                <span class="text-preset-5 features">Send up to 20 GB</span>
+                <div class="separator"></div>
+                <a
+                  href="#"
+                  class="btn secondary text-preset-6"
+                  aria-label="Learn more about Master Plan"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
